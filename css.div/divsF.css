@@ -1,0 +1,122 @@
+#divfoot{border: solid thin rgb(3, 3, 3);
+    margin-bottom: 0px;
+    }
+    
+    .ul_f{
+        width: fit-content;
+        height: fit-content;
+        flex-direction: column;
+        margin-top: 40px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .il_f{
+        width: fit-content;
+        height: fit-content;
+        justify-content: left;
+        justify-items: left;
+        display: flex;
+    }
+    
+    .il_f_contact{
+        width: fit-content;
+        height: fit-content;
+        justify-content: left;
+        justify-items: left;
+        display: flex;
+        margin-top: 35px;
+    }
+    #divcont{
+        width: 40%;
+        display: flex;
+        float: left;
+        margin-left: 10px;
+    }
+    .footer_a{
+        text-decoration: none;
+        color: aliceblue;
+        margin-left: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight:100;
+    }
+    
+    
+    .ul_f_nd{
+        margin-top: 250px;
+        width: fit-content;
+        flex-direction: column;
+        margin-left: auto;
+        margin-right: auto;}
+    
+    
+    .il_f_nd{
+        width: fit-content;
+    }
+
+
+
+
+
+#div17{
+    width: 47%;
+    display: flex;
+    float: right;
+    margin-right: 10px;}
+
+    .logoF{
+        width: 43%;
+        height: 30%;
+        float: right;
+        margin-top: -250px;
+        margin-right: -80px;
+        margin-left: 1000px;
+}
+ 
+
+
+    @media screen and (max-width:945px){
+        #divcount2{display: flex;}
+        #div17{display: flex;}
+
+        .ul_f{
+            margin:auto;
+            width: fit-content;
+            height: fit-content;
+            flex-direction: column;
+            margin-top: 40px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        #div17{
+            width: 60%;
+            display: flex;
+            float: left;
+            margin-right: 10px;}
+
+            .logoF{
+                width: 43%;
+                height: 30%;
+                float: right;
+            margin-top: -450px;
+                margin-right: 0px;
+        }
+    }
+
+        @media screen and (max-width:680px){
+
+            .logoF{
+                width: 70%;
+                height: 30%;
+                float: left;
+            margin-top: -250px;
+                margin-left:0px ;
+            }
+
+
+        footer{
+            background-color: var(--bg-b2);
+            margin: auto;
+            height: 700px;
+        }
+    }
