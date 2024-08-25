@@ -11,10 +11,46 @@
  background-color: black;
 }
 
+body{
+    position: relative;
+}
+
+#clk{
+    width: 20%;
+    padding-top: 5px;
+    padding-bottom: 20px;
+    background-color: #00000036;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1;
+    height: 600px;
+    border: 2px solid rgb(0, 0, 0);
+
+}
+
+.mnue-btn{
+    border: 2px solid rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    margin-top: 20px;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+}
+
+.menue{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
 .icon{background-color: aliceblue;
 border-radius: 50px;
 width: 20px;
-height: 50px;}
+height: 50px;
+}
 
 .lin_heder{border-left:1px solid white; margin-left: 10px; margin-right: 10px;}
         
@@ -96,6 +132,7 @@ padding-top: 0px;}
 .li_nav{
     font-size: 50px;
     list-style: none;
+    z-index: 1;
 }
 
 }
